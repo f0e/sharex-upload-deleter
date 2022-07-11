@@ -46,6 +46,7 @@ async function run() {
   // parse files
   for (const [year, files] of Object.entries(filesPerYear)) {
     console.log(`${year}: ${files.length} files`);
+    console.log();
 
     for (const [i, file] of files.entries()) {
       if (file.URL == config.STOP_URL) {
