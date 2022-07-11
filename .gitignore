@@ -1,6 +1,7 @@
 history
 history.json
 out
+config.js
 
 # Logs
 logs

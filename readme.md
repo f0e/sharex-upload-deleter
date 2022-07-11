@@ -11,7 +11,10 @@ The application will also check to see if screenshots exist locally before delet
 
 ## Setup
 
-- Locate your latest history.json file in your ShareX/backup directory and place it in the project root directory, renaming it to `history.json`.
+- Locate your latest history JSON file (History-XXXX-XX-XXX.json) in your ShareX/Backup directory and place it in the project root directory, renaming it to `history.json`.
+
+  (You can also get your history JSON file by extracting the file created from `Application Settings -> Settings -> Export`)
+
 - Edit `config.js` and add your current ShareX screenshots folder
 
 ## Usage
